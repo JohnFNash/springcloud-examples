@@ -1,0 +1,13 @@
+package com.johnfnash.learn.kafka.kafkaexamples;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class KafkaExamplesApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(KafkaExamplesApplication.class, args);
+    }
+
+}
